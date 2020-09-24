@@ -22,6 +22,7 @@ int main() {
 		for (int j = 0; j < N; j++) {
 			for (int k = 0; k < N; k++) {
 				if (arr[k] == 0) {
+					//The equation will get undefined for arr[k]=0.
 					continue;
 				}
 				long long c = ( arr[i] + arr[j] ) * arr[k];
